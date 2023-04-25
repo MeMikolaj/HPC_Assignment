@@ -1,0 +1,3 @@
+exe: serial1.exe
+serial1.exe: main-serial.c
+  gcc main-serial.c -o serial1.exe
